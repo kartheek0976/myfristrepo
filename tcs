@@ -1,0 +1,18 @@
+[200~17. What is git pull?
+Git pull is the combination of git fetch and git merge
+Git pull is used to get the commits from central repo to local repo
+Command: git pull origin branch
+18. Git fetch vs pull
+Git Fetch Git Pull
+The Git fetch command only downloads new data from a remote repository. Git pull updates
+the current HEAD branch with the latest changes from the remote server.
+It does not integrate any of these new data into your working files. Downloads new data and
+integrate it with the current working files.
+Command - git fetch origin
+git fetch --all Tries to merge remote changes with your local ones.
+Command - git pull origin master
+19. How to resolve the git conflicts?
+* Open the file in vi editor and remove the conflict messages.
+* Save the file
+* Add the files using the git add command.
+* The last step is to commit the changes in the file.
